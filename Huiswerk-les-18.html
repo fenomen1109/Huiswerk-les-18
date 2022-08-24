@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mijn geboorte plaats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <style type="text/css">
+      [class*="col-"] {
+        width: 100%;
+      }
+      @media only screen and (min-width: 600px) {
+        [class*="col-"] {
+          float: left;
+          padding: 15px
+      }
+      body{
+        min-height: 100%;
+        background-color: rgba(209, 202, 178);
+        padding: 0;
+        margin: 0;
+		display: flex;
+		flex-direction: column;
+
+      }
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+    }
+
+	#page-container {
+     flex-grow: 1;
+	}
+
+       .header {
+        width: 100%;
+        height: 200px;
+        font-family: 'Smooch', cursive0;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        background-image: url(gracanica.jpg);
+        background-size: 25% 100%;
+        background-repeat: repeat-x;
+        padding: 15px;
+      }
+      #linkerdeel{
+        min-height: 200px;
+        background-color: rgb(252, 241, 220);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+      }
+      #rechterdeel{
+        min-height: 500px;
+        background-color: rgb(247, 212, 146);
+        font-family: inherit;
+        display: inline-block;
+      }
+	  img {
+		border: 1px dotted black;
+		margin: 10px 10px 15px 20px;
+	}
+    .footer{
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+	  height: 30px;
+      background-color: rgb(212, 191, 125);
+      font-size: 15px;
+    }
+
+
+  </style>
+  </head>
+  <body>
+
+   <div id="page-container">
+
+		<header class="header">
+		  <h1>Gracanica</h1>
+		</header>
+
+		<div class="col-2">
+		<section id="linkerdeel">
+		  <p align="justify">Algemene informaties:</p>
+		  <ul align="justify">
+		  <li>Oppervlakte: 219 km²</li>
+		  <li>Weer: 18°C, Wind ZW bij 3 km/h, 93% Bevochtigheid</li>
+		  <li>Bevolking: 48,395 (2013)</li>
+		  <li>Lokale tijd: Woensdag 22:56</li>
+		  <li>Netnummer: +387 35 225 883</li>
+		  </ul>
+		</section>
+		</div>
+		<div class="col-9">
+		  <section id="rechterdeel">
+			<div id="atractie1">
+			  <p align="justify">
+			  <img src="sahatkula.jpeg" alt="sahatkula" width="200" height="200" style="float:right">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue nisl vitae nulla viverra facilisis. Etiam convallis, quam nec eleifend consectetur, nulla justo venenatis nisi, id rutrum elit tellus et metus. Donec viverra, sem volutpat pretium fermentum, massa magna fringilla ipsum, eu ultricies dolor orci eget erat. Vestibulum nisl turpis, iaculis vel urna eu, finibus rutrum leo. Sed fringilla vestibulum venenatis. Duis aliquam dui venenatis ex tempor dictum. Vestibulum justo lectus, condimentum sed nibh a, tincidunt mattis velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras sit amet pulvinar elit, a mattis velit. Integer vel congue ante. Suspendisse elit sem, tincidunt at tellus sit amet, semper sagittis dolor. Fusce lacinia suscipit interdum. Maecenas sed libero neque.
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+			  </p>
+			</div>
+			<div id="atractie2">
+			  <p align="justify">
+			  <img src="bijeladzamija.jpg" alt="bijela dzamija" width="200" height="200" style="float:right">
+			  Sed et nunc ultrices, condimentum ligula vitae, vehicula orci. Suspendisse potenti. Curabitur faucibus enim non orci vulputate, id accumsan est elementum. Quisque finibus tempus augue. Fusce maximus ullamcorper scelerisque. Etiam non tempor diam. Phasellus vulputate ante id libero molestie luctus. Sed ac mattis arcu.
+			  <br></br>
+			  <br></br>
+			  </p>
+			</div>
+		  </section>
+		</div>
+
+  </div>
+
+<footer class="footer">
+  <p>Rotterdam 2022 All rights reserved.</p>
+</footer>
+
+  </body>
+</html>
